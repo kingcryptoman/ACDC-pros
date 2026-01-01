@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketplace | ACDC PROS</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Inter',sans-serif}
+.product-card{border:2px solid #0f172a;transition:all 0.2s ease-in-out;display:flex;flex-direction:column;height:100%}
+.product-card:hover{box-shadow:8px 8px 0px #0f172a;transform:translate(-4px,-4px)}
+</style>
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+<nav class="fixed w-full z-50 bg-white border-b-2 border-slate-900">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<a href="index.html" class="text-2xl font-black tracking-tighter cursor-pointer">
+ACDC <span class="text-teal-500">PROS</span>.IO
+</a>
+<a href="index.html" class="text-xs font-black uppercase tracking-widest hover:text-teal-500 transition">← Back to Estimates</a>
+</div>
+</nav>
+
+<header class="pt-32 pb-16 px-6 bg-slate-50 border-b-2 border-slate-900">
+<div class="max-w-7xl mx-auto text-center">
+<h1 class="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-4">The <span class="text-teal-500">Marketplace</span></h1>
+<p class="text-slate-500 font-bold uppercase tracking-[0.3em] text-sm">Curated Tools & Digital Repair Intelligence</p>
+</div>
+</header>
+
+<main class="py-20 px-6 max-w-7xl mx-auto">
+
+<div class="mb-20">
+<div class="flex items-center gap-4 mb-10">
+<h2 class="text-3xl font-black uppercase italic text-slate-900">Digital Intelligence</h2>
+<div class="h-1 flex-grow bg-teal-500"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="product-card p-6 rounded-2xl bg-white">
+<div class="aspect-video bg-slate-900 rounded-xl mb-6 flex items-center justify-center">
+<i class="fas fa-file-pdf text-teal-500 text-5xl"></i>
+</div>
+<h3 class="text-xl font-black mb-2 uppercase">The Bathroom Closure Guide</h3>
+<p class="text-slate-500 text-sm mb-6 flex-grow">A complete 4K step-by-step PDF & video series on professional finishing.</p>
+<div class="flex items-center justify-between mb-4">
+<span class="text-2xl font-black">$47.00</span>
+<span class="text-[10px] font-bold bg-teal-100 text-teal-700 px-2 py-1 rounded">INSTANT DOWNLOAD</span>
+</div>
+<button class="w-full bg-slate-900 text-white py-4 rounded-xl font-black uppercase tracking-widest hover:bg-teal-500 transition">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="mb-20">
+<div class="flex items-center gap-4 mb-10">
+<h2 class="text-3xl font-black uppercase italic text-slate-900">Pro-Grade Tools</h2>
+<div class="h-1 flex-grow bg-slate-900"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="product-card p-6 rounded-2xl bg-white">
+<div class="aspect-square bg-slate-50 rounded-xl mb-6 flex items-center justify-center border border-slate-100">
+<i class="fas fa-tools text-slate-300 text-5xl"></i>
+</div>
+<h3 class="text-xl font-black mb-2 uppercase">Laser Level Pro</h3>
+<p class="text-slate-500 text-sm mb-6 flex-grow">The exact laser we use for Gwinnett residential layouts.</p>
+<a href="#" target="_blank" class="w-full bg-[#F96302] text-white py-4 rounded-xl text-center font-black uppercase tracking-widest hover:opacity-90 transition">View on Home Depot</a>
+</div>
+
+<div class="product-card p-6 rounded-2xl bg-white">
+<div class="aspect-square bg-slate-50 rounded-xl mb-6 flex items-center justify-center border border-slate-100">
+<i class="fas fa-vial text-slate-300 text-5xl"></i>
+</div>
+<h3 class="text-xl font-black mb-2 uppercase">Moisture Detection Kit</h3>
+<p class="text-slate-500 text-sm mb-6 flex-grow">Essential for checking leaks before closing walls.</p>
+<a href="#" target="_blank" class="w-full bg-[#004990] text-white py-4 rounded-xl text-center font-black uppercase tracking-widest hover:opacity-90 transition">View on Lowe's</a>
+</div>
+</div>
+</div>
+
+</main>
+
+<footer class="py-12 bg-white border-t-2 border-slate-900 text-center">
+<div class="text-2xl font-black mb-4">ACDC <span class="text-teal-500">PROS</span></div>
+<p class="text-slate-400 text-[10px] font-bold uppercase tracking-[0.4em]">Marketplace Portal v1.0</p>
+</footer>
+
+</body>
+</html>
